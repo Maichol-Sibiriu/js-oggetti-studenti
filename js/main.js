@@ -25,17 +25,23 @@ $(document).ready( function() {
         name : "marika",
         surname : "verdi",
         age : "30",
-      }
+      },
       {
         name : "mario",
         surname : "bianchi",
         age : "27",
-      }
+      },
       {
         name : "marco",
         surname : "rossi",
         age : "24",
-      }
-   ];
+      },
+    ];
+
+   // ciclo per stampa studenti
+   for (var i = 0; i < list.length; i++) {
+     console.log(list[i].name ,list[i].surname);
+   }
+
 
 });//fine documento.
